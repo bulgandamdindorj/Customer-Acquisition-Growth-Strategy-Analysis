@@ -1,110 +1,111 @@
-# Fintech Customer Intelligence: Loan Portfolio Analysis & Market Opportunity Identification
+# Moni Fintech App: UX Analysis, Customer Intelligence & Product Contribution
 
-> **This analysis replaced a CAD $75,000 external agency engagement and directly informed a CEO-level decision that triggered a company-wide rebrand and market expansion campaign.**
-
----
-
-## Business Context
-
-**Company:** Omnicapital NBFI & Moni Fintech App — a non-bank financial institution (NBFI) in Ulaanbaatar, Mongolia, offering auto leasing, business loans, consumer lending, and a mobile micro-lending app (Moni).
-
-**The Situation:**
-A marketing agency was brought in to conduct customer research and brand segmentation before a planned company rebrand. Their quote: **200M MNT (~CAD $75,000)** — for customer analysis and defining the target audience alone.
-
-I proposed to the CEO that I could deliver this work internally using the company's own data. He gave me access. This is that work.
+> This internal customer analysis saved approximately CAD $75,000 in external agency costs. During a mandatory end-of-probation review with senior leadership, I raised several product and brand issues I had noticed — which led the CEO to decide on a company-wide rebrand for both Moni and Omnicapital. A marketing agency was brought in and quoted 200M MNT (~CAD $75,000) for the customer research alone. I proposed to do it internally instead, got access to the company data, and delivered the full analysis myself..
 
 ---
 
-## My Role
+## Background
 
-**Title:** Marketing Manager *(Analytics, Product & UX Focus)*
-**Timeline:** June – December 2024 (6 months)
+**Company:** Moni is a mobile micro-lending app based in Mongolia, operated under Omnicapital NBFI. It targets younger, digital-first borrowers with short-term personal loans.
 
-While my official title was Marketing Manager, the scope of this project was product analytics and business intelligence. I worked independently — no team, no external tools beyond Excel — to design, execute, and present the full analysis directly to senior leadership.
+Three months into my role, during a mandatory end-of-probation review with the President, CEO, HR Head, and Department Heads, I raised three issues that nobody had flagged before:
+
+**1. Brand mismatch between social media and the app**
+Moni's Facebook and social media content was minimal, colorful, and youthful — exactly the kind of modern fintech feel the brand was going for. But when customers opened the actual app, the experience was completely different. The interface was dark, heavy, and corporate — closer in feel to Omnicapital, the traditional NBFI parent company. A customer who discovered Moni through social media would open the app and feel like they were in an entirely different product. The brand was promising one experience and delivering another.
+
+**2. Broken features pushing customers out of the app**
+Several in-app buttons were routing users to an inactive Facebook page instead of keeping them inside the app. Customers who tapped on certain services were being sent outside Moni entirely — to a page that no longer worked.
+
+**3. The loyalty feature was effectively invisible**
+Moni had a loyalty rewards program that customers were actively being advertised. But the feature itself was buried inside a rotating banner on the home screen. When the banner rotated away, the button disappeared. I only found it myself after asking my manager to point it out — and even then I hadn't realized it was a clickable button. It looked like a decorative banner, not a feature.
+
+The CEO hadn't noticed any of this. He decided on the spot to move forward with rebranding both Moni and Omnicapital.
+
+A week later, a marketing agency came in to pitch the rebrand. They proposed doing customer research, defining the target audience, and building the brand direction for both companies. Their price: **200M MNT (approximately CAD $75,000 — a significant amount in the Mongolian market, roughly equivalent to the annual salaries of several senior professionals).**
+
+I told the CEO I could do the customer research myself if he gave me access to the company data. He did. This repository covers the Moni side of that work.
 
 ---
 
-## The Data
+## Part 1 — UX Issues & App Redesign
 
-| Dataset | Details |
+### What I flagged
+The three issues above were documented in my presentation with direct comparisons between Moni's social media mood (minimal, colorful, youthful) and the app interface mood (dark, heavy, corporate). The gap between the two was the core problem.
+
+### What happened next
+The CEO called an urgent meeting with the product development team, designers, and developers. The product team took ownership of the interface redesign. My role in this process was:
+
+- Providing written feedback on layout and information structure
+- Writing and refining all in-app copy — how features were named, described, and communicated to users
+- Reviewing prototypes and giving feedback to designers and developers from a marketing and user clarity perspective
+
+The result: Moni's app was redesigned to be clean, minimal, and consistent with its social media identity. Features are now clearly visible and accessible. The loyalty program is a permanent, clearly labeled button — not a rotating banner.
+
+### Before vs After
+*Screenshots showing old dark interface vs current clean interface are included in the `/screenshots` folder.*
+
+---
+
+## Part 2 — Moni Customer Data Analysis
+
+### The Data
+- **380,000 Moni app customer records**
+- Variables: age, gender, marital status, monthly income, property ownership, vehicle ownership
+
+### Key Findings
+
+**The registration drop-off problem**
+
+| Metric | Number |
 |---|---|
-| **Omnicapital loan portfolio** | ~1,000+ active loan records |
-| **Moni app customer base** | 38,186 customer records |
-| **Variables** | Age, gender, marital status, occupation, monthly income, district/province, loan type, loan amount, days overdue (principal & interest), asset ownership (property, vehicle) |
-| **Geographic coverage** | 21 provinces + Ulaanbaatar districts |
-| **Loan products** | Auto leasing, vehicle-collateralized loans, real estate loans, business loans, express loans, consumer loans |
+| App downloads (Play Store + App Store) | 800,000 |
+| Registered users | 208,000 |
+| Active users | 80,000 |
+| Downloaded but never registered | 433,000 |
+
+The biggest opportunity was not acquiring brand new users — it was converting the **433,000 people who had already downloaded the app but never completed registration.** These were warm prospects who had shown interest but dropped off somewhere in the sign-up process.
+
+Additionally, 128,000 registered users were inactive — they signed up but stopped using the app. This was a second recovery opportunity.
+
+**Who the active customers are**
+
+- **37%** of registered users are aged 21–30
+- **40%** are aged 31–40
+- Women slightly outnumber men in the registered user base
+
+In raw numbers: approximately 78,000 users aged 21–30 and 84,000 aged 31–40 were registered at the time of analysis.
+
+**The market size context**
+
+Mongolia's population aged 20–40: approximately **522,000 men and 519,000 women** — just over 1 million people nationally.
+
+With 208,000 registered users out of a target market of 1,041,000, Moni had reached roughly **20% of its core demographic** — leaving significant room to grow, particularly through reactivating the 433,000 who downloaded but never signed up.
+
+**What drives loan demand — the segmentation framework**
+
+Based on the customer data and supported by academic research on buying behaviour by age and income, I built a segmentation matrix to estimate which customer profiles were most likely to need — and actively use — a consumer loan.
+
+Key insight from the framework:
+- Younger customers (20–30) with lower income had high loan demand regardless of marital status
+- Middle-income customers aged 31–40 showed the highest overall loan activity
+- Single-income households and single parents showed unexpectedly high loan frequency despite tighter budgets
+- Higher-income customers (4M+ MNT/month) across all age groups showed lower loan demand — they had less need for short-term micro-lending
+
+**The interest rate sensitivity campaign**
+
+Based on the finding that 433,000 people downloaded Moni but never completed registration, I proposed a targeted SMS campaign to this group offering a temporary interest rate reduction — from the standard 3.6–6% monthly rate down to 1.9–2.5% for one month.
+
+The business question this addressed: does the cost of offering a discounted rate for one month generate enough new long-term customers to justify the short-term revenue loss? The data suggested yes — the prospect pool was large, the interest rate was a known barrier, and a one-time incentive had low downside risk compared to losing those users permanently.
 
 ---
 
-## Methodology
+## What I Would Do Differently With Current Tools
 
-### 1. Data Cleaning & Preparation
-- Imported raw loan and customer records into Excel
-- Standardized address fields across 21 provinces and 9 Ulaanbaatar districts
-- Classified loan performance into three categories: **Performing**, **Special Mention**, and **Non-Performing** based on days overdue on principal and interest payments
+This analysis was done in Excel. With the tools I have now:
 
-### 2. Customer Segmentation
-Segmented the full customer base across multiple dimensions:
-
-- **Demographics:** Age group (20–30, 31–40, 41–50, 51+), gender, marital status
-- **Socioeconomic:** Monthly income brackets, occupation/industry
-- **Behavioral:** Loan type preference by age and gender, repayment behaviour
-- **Geographic:** Loan portfolio share and NPL rate by province and district
-
-### 3. Loan Quality Analysis
-- Calculated non-performing loan (NPL) rates by gender, age, occupation, and geography
-- Cross-tabulated performing vs non-performing rates to identify risk patterns
-- Key finding: **Occupation was a stronger predictor of NPL than age or gender** — customers in the retail/trade sector showed the highest NPL rates (19–20%), while service industry customers showed the lowest
-
-### 4. Market Opportunity Analysis
-- Compared customer penetration rates against district population data
-- Calculated: current customers ÷ total district population = penetration rate
-- Identified districts with low penetration but strong loan performance (low NPL) as high-priority expansion targets
-
-### 5. Customer Targeting Framework
-Built a segmentation matrix crossing income brackets against age groups and marital status to estimate consumer loan demand probability — used to guide marketing channel strategy and campaign targeting.
-
----
-
-## Key Findings
-
-### Finding 1 — The Hidden Market Opportunity
-**Baynzurkh district** represented **25.5% of Ulaanbaatar's total loan portfolio** — the largest share of any district. Yet the company had reached fewer than **1,000 customers out of a population of 400,000** — less than **0.001% market penetration**.
-
-Critically, Baynzurkh's **non-performing loan rate was only 6%** — among the lowest in the city — indicating that residents there are reliable borrowers. The opportunity was large and the risk was low.
-
-> **Action taken:** CEO approved a billboard expansion campaign targeting Baynzurkh district based directly on this finding.
-
-### Finding 2 — Geography Predicts Risk Better Than Demographics
-- **Dundgovi and Tov provinces** had the highest NPL rates nationally (14% and 10%)
-- Within Ulaanbaatar, **Baganuur district** showed 38% NPL — driven by a small number of high-value non-performing loans
-- **Khan-Uul and Bayanzurkh districts** (representing 17% and 25% of the portfolio respectively) showed the strongest loan quality
-
-### Finding 3 — Gender and Loan Quality
-- Female borrowers maintained similar performing loan rates to males (37–39%)
-- However, female borrowers appeared at higher rates in the non-performing category (42% of NPL vs 58% male) — suggesting different risk management needs by segment
-
-### Finding 4 — Age Has Minimal Impact on Repayment
-- Contrary to common assumption, age group had little correlation with NPL rate
-- **Occupation and income level were stronger predictors** of repayment behaviour
-
-### Finding 5 — Moni App: Large Untapped Prospect Pool
-- 800,000 app downloads; 208,000 registered users; only **80,000 active customers**
-- **433,000 users downloaded the app but never completed registration**
-- Target demographic (Mongolians aged 20–40): 1,041,000 people nationally
-- App penetration of the core demographic: less than 8%
-
----
-
-## Business Impact
-
-| Outcome | Detail |
-|---|---|
-| **Cost saving** | Replaced a CAD $75,000 external agency engagement |
-| **Market expansion** | CEO-approved billboard campaign in Baynzurkh district based on penetration analysis |
-| **Product redesign** | UX audit findings (conducted separately) triggered full Moni app redesign |
-| **Brand strategy** | Customer segmentation framework informed company-wide rebrand for both Omnicapital and Moni |
-| **Website redesign** | CSR gap identified; Omnicapital website redesigned in Figma — live at [omnicapital.mn](https://omnicapital.mn) |
+- **SQL** — to query the 380,000 customer records more efficiently and join demographic data with behavioural data
+- **Power BI** — to build an interactive dashboard filtering by age, income, location, and activity status
+- **Python (pandas)** — to calculate statistical correlation between customer attributes and loan uptake rates
 
 ---
 
@@ -112,42 +113,30 @@ Critically, Baynzurkh's **non-performing loan rate was only 6%** — among the l
 
 | Tool | Purpose |
 |---|---|
-| **Microsoft Excel** | Data cleaning, pivot tables, segmentation analysis, dashboard design |
-| **Figma** | Website and app interface redesign (self-taught in 1 week) |
-| **PowerPoint** | Executive presentation to CEO and senior leadership |
+| Microsoft Excel | Data cleaning, pivot tables, segmentation analysis, charts |
+| PowerPoint | Executive presentation to CEO and senior leadership |
 
 ---
 
-## Dashboard Screenshots
+## Screenshots
 
-> *Note: Customer names, registration numbers, and personal identifiers have been removed from all visuals in compliance with data privacy standards. Screenshots show aggregated analysis only.*
+> All customer identifiers have been removed. Screenshots show aggregated data only.
 
-### Customer Demographics
-![Gender and Age Distribution](screenshots/demographics.png)
-
-### Loan Portfolio by Product Type
-![Loan Info Dashboard](screenshots/loan_portfolio.png)
-
-### Loan Quality by Customer Features
-![NPL Analysis](screenshots/loan_quality.png)
-
-### Geographic Performance
-![Geographic Analysis](screenshots/geographic.png)
-
-### Customer Segmentation Matrix
-![Segmentation Matrix](screenshots/segmentation_matrix.png)
+- `/screenshots/moni-old-app.png` — old dark interface
+- `/screenshots/moni-new-app.png` — redesigned clean interface
+- `/screenshots/brand-mismatch.png` — social media vs app mood comparison slide
+- `/screenshots/registration-funnel.png` — 800k downloads → 208k registered → 80k active
+- `/screenshots/age-gender-breakdown.png` — registered customer demographics
+- `/screenshots/segmentation-matrix.png` — loan demand by age and income
+- `/screenshots/sms-campaign.png` — interest rate reduction campaign proposal
 
 ---
 
-## What I Would Do Differently With More Tools
+## Related Project
 
-This analysis was conducted entirely in Excel. If I were to rebuild this project today using current skills:
+**Omnicapital Loan Portfolio Analysis** — the traditional lending side of this same engagement, covering 3,900 loan records, non-performing loan analysis by geography and demographics, and the Omnicapital website redesign.
 
-- **SQL** — to query and join loan, customer, and geographic tables more efficiently
-- **Power BI** — to build an interactive dashboard allowing drill-down by district, product, and demographic
-- **Python (pandas)** — for statistical correlation analysis between NPL rates and demographic variables
-
-This is exactly the approach I am applying in my current Canadian fintech portfolio project using Statistics Canada data.
+→ [View Omnicapital project](../omnicapital-loan-portfolio-analysis)
 
 ---
 
