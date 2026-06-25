@@ -12,8 +12,20 @@ Three months into my role, during a mandatory end-of-probation review with the P
 
 **1. Brand mismatch between social media and the app**
 Moni's Facebook and social media content was minimal, colorful, and youthful — exactly the kind of modern fintech feel the brand was going for. But when customers opened the actual app, the experience was completely different. The interface was dark, heavy, and corporate — closer in feel to Omnicapital, the traditional NBFI parent company. A customer who discovered Moni through social media would open the app and feel like they were in an entirely different product. The brand was promising one experience and delivering another.
-<img width="1710" height="962" alt="Screenshot 2026-06-24 at 10 50 48 AM" src="https://github.com/user-attachments/assets/9af622b1-e525-42d6-b9c7-ff8da7c06af3" /> <img width="1710" height="962" alt="Screenshot 2026-06-24 at 10 50 57 AM" src="https://github.com/user-attachments/assets/226482c8-4f7b-4fc4-8408-e74fab59c3ef" />
-
+<table>
+  <tr>
+    <td align="center"><b>Old App Version</b></td>
+    <td align="center"><b>New Interface</b></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/moni-old-app.png" width="340"/></td>
+    <td><img src="./screenshots/moni-new-app.png" width="340"/></td>
+  </tr>
+  <tr>
+    <td align="center">Dark, corporate, inconsistent with brand</td>
+    <td align="center">Clean, minimal, loyalty feature always visible</td>
+  </tr>
+</table>
 
 
 **2. Broken features pushing customers out of the app**
