@@ -83,9 +83,6 @@ Over half of people who downloaded the app never completed registration. The 433
 
 Mongolia's 20–40 population is approximately 1,041,000 people. Moni had reached around 20% of that group — with significant room to grow, particularly by bringing back the 433,000 who never registered.
 
-> 📊 *[Page 8 — upload to GitHub and paste URL here]*  
-> *Registered customer breakdown by age group and gender (blue = male, pink = female) — 21–30 and 31–40 age groups make up 77% of registered users*
-
 ---
 
 ## Methodology
