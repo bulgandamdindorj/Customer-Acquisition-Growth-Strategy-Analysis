@@ -1,161 +1,150 @@
-# Moni Fintech App: UX Analysis, Customer Intelligence & Product Contribution
+# Fintech Product Analytics · UX Audit · Customer Segmentation · Acquisition Funnel
 
-> This internal customer analysis saved approximately CAD $75,000 in external agency costs. During a mandatory end-of-probation review with senior leadership, I raised several product and brand issues I had noticed — which led the CEO to decide on a company-wide rebrand for both Moni and Omnicapital. A marketing agency was brought in and quoted 200M MNT (~CAD $75,000) for the customer research alone. I proposed to do it internally instead, got access to the company data, and delivered the full analysis myself..
+**Company:** Moni — Fintech mobile app, Mongolia · operates under Omnicapital NBFI  
+**Target market:** Young, digital-first borrowers · short-term personal loans
 
 ---
 
-## Background
+## Executive Summary
 
-**Company:** Moni is a mobile micro-lending app based in Mongolia, operated under Omnicapital NBFI. It targets younger, digital-first borrowers with short-term personal loans.
+This project saved Omnicapital ~CAD $75,000 in external research costs. Three months into the role, I presented UX research and product observations at a mandatory end-of-probation review with senior executives — flagging critical gaps between Moni's brand identity and its actual in-app experience. The findings triggered a company-wide rebranding decision. When an external agency quoted 200M MNT for the customer research, I proposed doing it internally instead. The CEO approved.
 
-Three months into my role, during a mandatory end-of-probation review with the President, CEO, HR Head, and Department Heads, I raised three issues that nobody had flagged before:
+| | |
+|---|---|
+| **Cost saved** | ~CAD $75,000 in external agency fees |
+| **Scope** | Customer analysis · segmentation · acquisition funnel · UX audit |
+| **Data** | 380,000 customer records · 800,000 download events |
+| **Key finding** | 433,000 users downloaded but never registered — re-engagement was the real growth opportunity |
+| **Outcome** | App redesigned and shipped · positive customer response on social media post-launch |
 
-**1. Brand mismatch between social media and the app**
-Moni's Facebook and social media content was minimal, colorful, and youthful — exactly the kind of modern fintech feel the brand was going for. But when customers opened the actual app, the experience was completely different. The interface was dark, heavy, and corporate — closer in feel to Omnicapital, the traditional NBFI parent company. A customer who discovered Moni through social media would open the app and feel like they were in an entirely different product. The brand was promising one experience and delivering another.
+**Before & After — App Interface**
+
 <table>
   <tr>
-    <td align="center"><b>Old App Version</b></td>
+    <td align="center"><b>Old — Dark Interface</b></td>
+    <td align="center"><b>Old — Rotating Banner</b></td>
     <td align="center"><b>New Interface</b></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/96fa26aa-7dc3-4dd8-867b-ee40dbcc2b1b" width="300"/></td>
-    <td><img src="https://github.com/user-attachments/assets/5b83d413-83f3-45b9-a38a-22fe55e58680" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/96fa26aa-7dc3-4dd8-867b-ee40dbcc2b1b" width="210"/></td>
+    <td><img src="https://github.com/user-attachments/assets/3513549f-a6d0-4635-9d5d-3298cccb3ea4" width="210"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5b83d413-83f3-45b9-a38a-22fe55e58680" width="210"/></td>
   </tr>
   <tr>
-    <td align="center">Dark, corporate feel — inconsistent with brand</td>
-    <td align="center">Clean, minimal — loyalty feature permanently visible</td>
+    <td align="center">Dark, corporate — inconsistent with brand</td>
+    <td align="center">Loyalty button only visible when banner was showing</td>
+    <td align="center">Clean, minimal — loyalty permanently visible</td>
   </tr>
 </table>
 
-**2. Broken features pushing customers out of the app**
-Several in-app buttons were routing users to an inactive Facebook page instead of keeping them inside the app. Customers who tapped on certain services were being sent outside Moni entirely — to a page that no longer worked.
+---
 
-**3. The loyalty feature was effectively invisible**
-Moni had a loyalty rewards program that customers were actively being advertised. But the feature itself was buried inside a rotating banner on the home screen. When the banner rotated away, the button disappeared. I only found it myself after asking my manager to point it out — and even then I hadn't realized it was a clickable button. It looked like a decorative banner, not a feature.
+## The Problems I Found
 
-The CEO hadn't noticed any of this. He decided on the spot to move forward with rebranding both Moni and Omnicapital.
+Three months in, I raised three issues at a mandatory senior leadership review. None had been flagged internally before.
 
-A week later, a marketing agency came in to pitch the rebrand. They proposed doing customer research, defining the target audience, and building the brand direction for both companies. Their price: **200M MNT (approximately CAD $75,000 — a significant amount in the Mongolian market, roughly equivalent to the annual salaries of several senior professionals).**
+**1. Brand inconsistency between marketing and the product**
+Moni's social media was clean and youthful. The app itself was dark and heavy, visually closer to Omnicapital's traditional NBFI identity than to Moni. Anyone who discovered the app through social media would open it and experience a completely different product.
 
-I told the CEO I could do the customer research myself if he gave me access to the company data. He did. This repository covers the Moni side of that work.
+**2. Broken features pushing users out of the app**
+Several in-app buttons were redirecting users to an inactive Facebook page with no error message or fallback.
+
+**3. The loyalty program wasn't visible to users**
+Moni was actively promoting a loyalty rewards program, but the feature was buried inside a rotating home screen banner. When the banner cycled, the button disappeared entirely. I only found it after asking my manager, and even then it didn't look interactive.
 
 ---
 
-## Part 1 — UX Issues & App Redesign
+## The Data
 
-### What I flagged
-The three issues above were documented in my presentation with direct comparisons between Moni's social media mood (minimal, colorful, youthful) and the app interface mood (dark, heavy, corporate). The gap between the two was the core problem.
+**Dataset: 380,000 customer records**
+Variables: age · gender · marital status · monthly income · property ownership · vehicle ownership
 
-### What happened next
-The CEO called an urgent meeting with the product development team, designers, and developers. The product team took ownership of the interface redesign. My role in this process was:
+**Where users were dropping off**
 
-- Providing written feedback on layout and information structure
-- Writing and refining all in-app copy — how features were named, described, and communicated to users
-- Reviewing prototypes and giving feedback to designers and developers from a marketing and user clarity perspective
-
-The result: Moni's app was redesigned to be clean, minimal, and consistent with its social media identity. Features are now clearly visible and accessible. The loyalty program is a permanent, clearly labeled button — not a rotating banner.
-
-### Before vs After
-*Screenshots showing old dark interface vs current clean interface are included in the `/screenshots` folder.*
-
----
-
-## Part 2 — Moni Customer Data Analysis
-
-### The Data
-- **380,000 Moni app customer records**
-- Variables: age, gender, marital status, monthly income, property ownership, vehicle ownership
-
-### Key Findings
-
-**The registration drop-off problem**
-
-| Metric | Number |
+| Stage | Number |
 |---|---|
-| App downloads (Play Store + App Store) | 800,000 |
+| App downloads (Play Store + App Store)* | 800,000 |
 | Registered users | 208,000 |
 | Active users | 80,000 |
-| Downloaded but never registered | 433,000 |
+| Downloaded but never registered | **433,000** |
+| Registered but inactive | 128,000 |
 
-The biggest opportunity was not acquiring brand new users — it was converting the **433,000 people who had already downloaded the app but never completed registration.** These were warm prospects who had shown interest but dropped off somewhere in the sign-up process.
+*Total download events — includes re-downloads, not unique users*
 
-Additionally, 128,000 registered users were inactive — they signed up but stopped using the app. This was a second recovery opportunity.
+Over half of people who downloaded the app never completed registration. The 433,000 who dropped off had already shown interest — re-engaging them was a bigger opportunity than acquiring new users.
 
-**Who the active customers are**
+> 📊 *[Page 9 — upload to GitHub and paste URL here]*  
+> *Original slide from internal executive presentation — key metrics explained in table above*
 
-- **37%** of registered users are aged 21–30
-- **40%** are aged 31–40
-- Women slightly outnumber men in the registered user base
+**Who was actually using Moni**
 
-In raw numbers: approximately 78,000 users aged 21–30 and 84,000 aged 31–40 were registered at the time of analysis.
+| Segment | Share | Volume |
+|---|---|---|
+| Age 21–30 | 37% of registered users | ~78,000 |
+| Age 31–40 | 40% of registered users | ~84,000 |
+| Gender | Women slightly outnumber men | — |
 
-**The market size context**
+Mongolia's 20–40 population is approximately 1,041,000 people. Moni had reached around 20% of that group — with significant room to grow, particularly by bringing back the 433,000 who never registered.
 
-Mongolia's population aged 20–40: approximately **522,000 men and 519,000 women** — just over 1 million people nationally.
-
-With 208,000 registered users out of a target market of 1,041,000, Moni had reached roughly **20% of its core demographic** — leaving significant room to grow, particularly through reactivating the 433,000 who downloaded but never signed up.
-
-**What drives loan demand — the segmentation framework**
-
-Based on the customer data and supported by academic research on buying behaviour by age and income, I built a segmentation matrix to estimate which customer profiles were most likely to need — and actively use — a consumer loan.
-
-Key insight from the framework:
-- Younger customers (20–30) with lower income had high loan demand regardless of marital status
-- Middle-income customers aged 31–40 showed the highest overall loan activity
-- Single-income households and single parents showed unexpectedly high loan frequency despite tighter budgets
-- Higher-income customers (4M+ MNT/month) across all age groups showed lower loan demand — they had less need for short-term micro-lending
-
-**The interest rate sensitivity campaign**
-
-Based on the finding that 433,000 people downloaded Moni but never completed registration, I proposed a targeted SMS campaign to this group offering a temporary interest rate reduction — from the standard 3.6–6% monthly rate down to 1.9–2.5% for one month.
-
-The business question this addressed: does the cost of offering a discounted rate for one month generate enough new long-term customers to justify the short-term revenue loss? The data suggested yes — the prospect pool was large, the interest rate was a known barrier, and a one-time incentive had low downside risk compared to losing those users permanently.
+> 📊 *[Page 8 — upload to GitHub and paste URL here]*  
+> *Registered customer breakdown by age group and gender (blue = male, pink = female) — 21–30 and 31–40 age groups make up 77% of registered users*
 
 ---
 
-## What I Would Do Differently With Current Tools
+## Methodology
 
-This analysis was done in Excel. With the tools I have now:
+**UX Audit**
+Documented all three issues and presented them at the senior leadership review. The CEO called an urgent meeting with the product and design team the same day.
 
-- **SQL** — to query the 380,000 customer records more efficiently and join demographic data with behavioural data
-- **Power BI** — to build an interactive dashboard filtering by age, income, location, and activity status
-- **Python (pandas)** — to calculate statistical correlation between customer attributes and loan uptake rates
+**Redesign Contribution**
+Wrote all in-app copy — feature names, descriptions, and anything user-facing. Gave feedback on layout and structure directly to the designers and developers, and reviewed prototypes before they shipped.
+
+**Customer Segmentation**
+Mapped consumer loan demand across age groups and income levels using the 380,000 customer records. Referenced an academic framework (*"The Impact of Age on Customers' Buying Behaviour"*, Marie Slabá Ph.D, 2019) to guide the segmentation logic. Key patterns: younger lower-income users showed the highest loan demand regardless of marital status, the 31–40 middle-income group had the highest overall activity, and higher-income users had the least need for micro-lending.
+
+> 📊 *[Page 24 — upload to GitHub and paste URL here]*  
+> *Segmentation matrix — consumer loan demand by age and income · red = high demand · green = low demand*
+
+**Campaign Proposal**
+Proposed an SMS campaign targeting the 433,000 who downloaded but never registered — offering a temporary rate reduction from 3.6–6% down to 1.9–2.5% for one month to convert them into active users.
+
+> 📊 *[Page 14 — upload to GitHub and paste URL here]*
 
 ---
 
-## Tools Used
+## Results
 
-| Tool | Purpose |
+The full customer research and segmentation was delivered internally, saving the company ~CAD $75,000 in external agency fees. The app was redesigned and shipped — clean, minimal, and consistent with Moni's brand identity. The loyalty program moved from a disappearing banner to a permanently visible button, and broken links were fixed. After launch, customers responded positively on social media.
+
+> 📊 *[Upload IMG_5003 and IMG_5004 to GitHub and paste URLs here]*  
+> *Customer comments on social media after the redesigned app launched*
+
+---
+
+## Tools
+
+| Tool | |
 |---|---|
-| Microsoft Excel | Data cleaning, pivot tables, segmentation analysis, charts |
-| PowerPoint | Executive presentation to CEO and senior leadership |
+| Microsoft Excel | Data cleaning · pivot tables · VLOOKUP · segmentation matrix · funnel analysis |
+| PowerPoint | Executive presentation — President, CEO, HR Head, Department Heads |
 
 ---
 
-## Screenshots
+## If I Did This Today
 
-> All customer identifiers have been removed. Screenshots show aggregated data only.
+The analysis was done in Excel. With the tools I have now, the work would be faster, more precise, and reproducible.
 
-- `/screenshots/moni-old-app.png` — old dark interface
-- `/screenshots/moni-new-app.png` — redesigned clean interface
-- `/screenshots/brand-mismatch.png` — social media vs app mood comparison slide
-- `/screenshots/registration-funnel.png` — 800k downloads → 208k registered → 80k active
-- `/screenshots/age-gender-breakdown.png` — registered customer demographics
-- `/screenshots/segmentation-matrix.png` — loan demand by age and income
-- `/screenshots/sms-campaign.png` — interest rate reduction campaign proposal
+SQL to query and join 380,000 records properly instead of managing everything in spreadsheets. Power BI to build an interactive dashboard anyone on the team could filter by age, income, location, or activity status. Python with pandas to run proper correlation analysis between customer attributes and loan uptake. And automated reporting to track the funnel over time rather than delivering a one-time snapshot.
 
 ---
 
 ## Related Project
 
-**Omnicapital Loan Portfolio Analysis** — the traditional lending side of this same engagement, covering 3,900 loan records, non-performing loan analysis by geography and demographics, and the Omnicapital website redesign.
+**Omnicapital Loan Portfolio Analysis** — the traditional lending side of the same engagement: 3,900 loan records, non-performing loan analysis by location and demographics, and the Omnicapital website redesign built in Figma.
 
 → [View Omnicapital project](../omnicapital-loan-portfolio-analysis)
 
 ---
 
-## About
-
-**Bulgan Damdindorj** | Vancouver, BC
-MBA — University Canada West (2026)
+**Bulgan Damdindorj** · Vancouver, BC · MBA, University Canada West (2026)  
 [LinkedIn](https://linkedin.com/in/yourprofile) · [GitHub](https://github.com/bulgandamdindorj)
