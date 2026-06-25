@@ -18,15 +18,14 @@ Moni's Facebook and social media content was minimal, colorful, and youthful —
     <td align="center"><b>New Interface</b></td>
   </tr>
   <tr>
-    <td><img src="./screenshots/moni-old-app.png" width="340"/></td>
-    <td><img src="./screenshots/moni-new-app.png" width="340"/></td>
+    <td><img src="https://github.com/user-attachments/assets/96fa26aa-7dc3-4dd8-867b-ee40dbcc2b1b" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5b83d413-83f3-45b9-a38a-22fe55e58680" width="300"/></td>
   </tr>
   <tr>
-    <td align="center">Dark, corporate, inconsistent with brand</td>
-    <td align="center">Clean, minimal, loyalty feature always visible</td>
+    <td align="center">Dark, corporate feel — inconsistent with brand</td>
+    <td align="center">Clean, minimal — loyalty feature permanently visible</td>
   </tr>
 </table>
-
 
 **2. Broken features pushing customers out of the app**
 Several in-app buttons were routing users to an inactive Facebook page instead of keeping them inside the app. Customers who tapped on certain services were being sent outside Moni entirely — to a page that no longer worked.
