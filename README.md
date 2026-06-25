@@ -140,7 +140,6 @@ The full customer research and segmentation was delivered internally, saving the
 </table>
 
 
-
 > *Customer comments on social media after the redesigned app launched*
 
 ---
