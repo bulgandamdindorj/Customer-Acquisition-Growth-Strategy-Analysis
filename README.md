@@ -99,7 +99,7 @@ Mapped consumer loan demand across age groups and income levels using the 380,00
 <img width="1710" height="1035" alt="Screenshot 2026-06-25 at 5 01 47 PM" src="https://github.com/user-attachments/assets/500c566b-c28f-4b51-adf7-89d6385587ec" />
 
 
-> *Segmentation matrix — consumer loan demand by age and income · red = high demand · green = low demand*
+> *Customer segmentation dashboard built in Excel — gender ratio, age ratio, revenue by age and gender, marital status · research sample: 109,503 records*
 
 **Campaign Proposal**
 Proposed an SMS campaign targeting the 433,000 who downloaded but never registered — offering a temporary rate reduction from 3.6–6% down to 1.9–2.5% for one month to convert them into active users.
