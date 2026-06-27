@@ -2,6 +2,7 @@
 
 **Company:** Moni — Fintech mobile app, Mongolia · operates under Omnicapital NBFI  
 [Moni Mobile App](https://apps.apple.com/mn/app/moni-digital/id1579010161)
+
 **Target market:** Young, digital-first borrowers · short-term personal loans
 
 ---
